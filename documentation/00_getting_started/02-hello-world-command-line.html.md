@@ -65,6 +65,13 @@ Test your project from the following commands:
 lime test flash
 lime test neko
 ```
+If you have error "Flixel is currently incompatible with OpenFL 4.0.0 or above. Please use version 3.6.1 or older.", please run commands:
+
+``` bash
+haxelib set openfl 3.6.1
+haxelib set lime 2.9.1
+```
+because now OpenFL 4.0 removes the drawtiles api, which flixel currently relies on.
 
 If you struggled through any part of this tutorial, ask a question on our [forum](http://forum.haxeflixel.com/) :)
 
